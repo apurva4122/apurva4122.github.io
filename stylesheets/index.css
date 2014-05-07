@@ -40,7 +40,7 @@ a {
 }
 
 .box {
-  	bottom: 0; /* increase for footer use */
+    bottom: 0; /* increase for footer use */
     left: 0;
     position: absolute;
     right: 0;
@@ -51,7 +51,7 @@ a {
 }
 
 .divider {
-	margin-top:32px;
+  margin-top:32px;
 }
 
 #main {
@@ -66,11 +66,8 @@ a {
 #sidebar, #sidebar a {
     color:#ffffff;
     background-color:transparent;
-	  text-shadow:1px 0 1px #888888;
-}
-
-#sidebar li {
-  font-size: 18px;
+  text-shadow:1px 0 1px #888888;
+    font-size: 18px;
 }
 
 #sidebar {
@@ -98,18 +95,9 @@ a {
     padding-right: 15px;
 }
 
-.profile-image {
-  max-width: 175px;
-  max-height: 175px;
-  display:block;
-  margin:auto;
-}
-
 .project-image {
   max-width: 350px;
   max-height: 350px;
-  display:block;
-  margin:auto;
 }
 
 .underline {
@@ -120,30 +108,37 @@ a {
 .social {
     width: 35px;
     height: 35px;
-/*    -webkit-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     -o-transition: all ease 0.5s;
     -ms-transition: all ease 0.5s;
-    transition: all ease 0.5s;*/
+    transition: all ease 0.5s;
 }
 
 .social:hover {
     opacity: 0.7;
-/*    -webkit-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
     -ms-transform:rotate(360deg);
-    transform:rotate(360deg);*/
+    transform:rotate(360deg);
 }
 
 li:hover a {
     opacity:0.7;
-    text-decoration: none;
 }
-h2:hover a {
-    opacity:0.7;
-    text-decoration: none;
+
+/* center and adjust the sidebar contents on smaller devices */
+@media (max-width: 768px) {
+  #sidebar {
+    text-align:center;
+    margin:0 auto;
+/*    margin-top:30px;*/
+    max-height:350px;
+  }
 }
+
+
 
 
 /* bootstrap overrides */
@@ -162,8 +157,7 @@ h1,h2,h3 {
   margin-top: 55px;
   padding-top: 9px;
   border-top:1px solid #eeeeee;
-  /*font-weight:700;*/
-  font-size: 24px;
+  font-weight:700;
   text-transform:uppercase;
   letter-spacing:2px;
 }
@@ -176,13 +170,7 @@ small.text-muted {
   font-family:courier,courier-new,monospace;
 }
 
-
-/* center and adjust the sidebar contents on smaller devices */
-@media (max-width: 768px) {
-  #sidebar {
-    text-align:center;
-    margin:0 auto;
-/*    margin-top:30px;*/
-    max-height:350px;
-  }
-}
+/*#sidebar {
+  background-image: url('../images/mountain-trimmed.jpg');
+  background-repeat: no-repeat;
+}*/
