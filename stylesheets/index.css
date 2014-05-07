@@ -66,8 +66,11 @@ a {
 #sidebar, #sidebar a {
     color:#ffffff;
     background-color:transparent;
-	text-shadow:1px 0 1px #888888;
-    font-size: 18px;
+	  text-shadow:1px 0 1px #888888;
+}
+
+#sidebar li {
+  font-size: 18px;
 }
 
 #sidebar {
@@ -117,24 +120,29 @@ a {
 .social {
     width: 35px;
     height: 35px;
-    -webkit-transition: all ease 0.5s;
+/*    -webkit-transition: all ease 0.5s;
     -moz-transition: all ease 0.5s;
     -o-transition: all ease 0.5s;
     -ms-transition: all ease 0.5s;
-    transition: all ease 0.5s;
+    transition: all ease 0.5s;*/
 }
 
 .social:hover {
     opacity: 0.7;
-    -webkit-transform:rotate(360deg);
+/*    -webkit-transform:rotate(360deg);
     -moz-transform:rotate(360deg);
     -o-transform:rotate(360deg);
     -ms-transform:rotate(360deg);
-    transform:rotate(360deg);
+    transform:rotate(360deg);*/
 }
 
 li:hover a {
     opacity:0.7;
+    text-decoration: none;
+}
+h2:hover a {
+    opacity:0.7;
+    text-decoration: none;
 }
 
 /* center and adjust the sidebar contents on smaller devices */
@@ -146,9 +154,6 @@ li:hover a {
     max-height:350px;
   }
 }
-
-
-
 
 /* bootstrap overrides */
 
@@ -179,8 +184,3 @@ h1,h2,h3 {
 small.text-muted {
   font-family:courier,courier-new,monospace;
 }
-
-/*#sidebar {
-  background-image: url('../images/mountain-trimmed.jpg');
-  background-repeat: no-repeat;
-}*/

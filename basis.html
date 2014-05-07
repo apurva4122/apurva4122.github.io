@@ -7,11 +7,13 @@
         <link href='stylesheets/museoslab.css' rel='stylesheet' type='text/css'>
         <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
         <link href="stylesheets/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="stylesheets/basis.css" rel="stylesheet">
+        
+        <link href="stylesheets/index.css" rel="stylesheet">
+
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <title>Akshay Buddiga | Web Developer</title>
+        <title>Akshay Buddiga</title>
     </head>
 
     <body>
@@ -22,19 +24,18 @@
                     <!-- sidebar -->
                     <div class="column col-sm-3" id="sidebar">
                         <div class="title">
-                            <h2>Akshay Buddiga</h2>
-                            <p>Web Developer</p>
+                            <h2><a href="http://abuddiga.github.io">Akshay Buddiga</a></h2>
                             <div class="social-icons">
                                 <a href="https://github.com/abuddiga"><img class="social" src="images/github-transparent.png"></a>
-                                <a href="http://www.linkedin.com/in/akshaybuddiga"><img class="social" src="images/linkedin-transparent.png"></a>
+                                <a href="https://linkedin.com/in/akshaybuddiga"><img class="social" src="images/linkedin-transparent.png"></a>
                                 <a href="https://twitter.com/akshaybuddiga"><img class="social" src="images/twitter-transparent.png"></a>
                             </div>
                         </div>
                         <ul class="nav">
-                            <li class="active"><a href="#projects">Projects</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                            <li><a href="#">About Me</a></li>
-                            <li><a href="#">Contact</a><li>
+                            <li class="active"><a href="#aboutme">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <!-- <li><a href="#blog">Blog</a></li> -->
+                            <li><a href="#contact">Contact</a><li>
                         </ul>
                         <ul class="nav hidden-xs" id="sidebar-footer">
                             <li>
@@ -50,169 +51,103 @@
                             <div class="full col-sm-9">
                               
                                 <!-- content -->
-                                
-                                <div class="col-sm-12" id="projects">   
-                                    <div class="page-header text-muted">Projects</div> 
-                                </div>
-                                
-                                <!--/top story-->
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h3>GitFit - Find the Perfect Gym Buddy</h3>
-                                        <h4><a class="label label-default" href="http://git-fit.herokuapp.com">git-fit.herokuapp.com</a></h4>
+
+                                <div class="about-section">
+
+                                    <div class="col-sm-12" id="aboutme">
+                                        <div class="page-header text-muted divider">About Me</div>
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-sm-7">
+                                            <p>I recently graduated with a master's in Management Science &amp; Engineering from Stanford University, where I discovered a love for coding and entrepreneurship. I previously studied biomedical engineering at Duke University. I'm passionate about working on products with broad impact in Internet &amp; mobile technology, healthcare, and education. You can view my complete resume <a href="#" class="underline">here</a>.</p>
+                                        </div>
+
+                                        <div class="col-sm-5">
+                                            <div class="profile-image">
+                                                <a href="#"><img src="images/meinSF.jpg" class="img img-rounded img-responsive"></img></a>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                        
-                                        <p>GitFit is a mobile web app that connects athletes with gym partners based on your activities and schedule. Features include profile creation/editing, search, friending/unfriending, messaging, and scheduling activities. Check it out <a href="http://git-fit.herokuapp.com" class="underline">here</a> (Username: abuddiga Password: password) or see our code <a href="https://github.com/leorong/gitfit" class="underline">here</a>.</p>
-                                        <h5 class="underline">Primary Technologies</h5>
-                                        <ul>
-                                            <li>Node.js</li>
-                                            <li>Express</li>
-                                            <li>MongoDB/Mongoose</li>
-                                        </ul>
-                                        <h5 class="underline">Other Tools</h5>
-                                        <p>jQuery, Bootstrap, vagrant, Github</p>
+
+                                <div class="projects-section">
+                                    <div class="col-sm-12" id="projects">   
+                                        <div class="page-header text-muted">Projects</div> 
                                     </div>
-                                    <div class="col-sm-5">
-                                        <div class="project-image">
-                                            <a href="http://git-fit.herokuapp.com"><img src="images/gitfit_poster2.png" class="img img-rounded img-responsive"></img></a>
+                                    
+
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <h3>GitFit - Find the Perfect Gym Buddy</h3>
+                                            <h4><a class="label label-default" href="http://git-fit.herokuapp.com">git-fit.herokuapp.com</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            
+                                            <p>GitFit is a mobile web app that connects athletes with gym partners based on your activities and schedule. Features include profile creation/editing, search, friending/unfriending, messaging, and scheduling activities. Check it out <a href="http://git-fit.herokuapp.com" class="underline">here</a> (Username: abuddiga Password: password) or see our code <a href="https://github.com/leorong/gitfit" class="underline">here</a>.</p>
+                                            <h5 class="underline">Primary Technologies</h5>
+                                            <ul>
+                                                <li>Node.js</li>
+                                                <li>Express</li>
+                                                <li>MongoDB/Mongoose</li>
+                                            </ul>
+                                            <h5 class="underline">Other Tools</h5>
+                                            <p>jQuery, Bootstrap, vagrant, Github</p>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="project-image">
+                                                <a href="http://git-fit.herokuapp.com"><img src="images/gitfit_poster2.png" class="img img-rounded img-responsive"></img></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row divider">    
+                                       <div class="col-sm-12"><hr></div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <h3>2048 - Game Of Thrones Edition</h3>
+                                            <h4><a class="label label-default" href="http://abuddiga.github.io/2048-GameOfThrones">abuddiga.github.io/2048-GameOfThrones</a></h4>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            
+                                            <p>A Game of Thrones version of the addictive 2048!</p>
+                                            <h5 class="underline">Primary Technologies</h5>
+                                            <ul>
+                                                <li>Javascript</li>
+                                                <li>CSS</li>
+                                            </ul>
+                                            <h5 class="underline">Other Tools</h5>
+                                            <p>Github</p>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="project-image">
+                                                <a href="http://abuddiga.github.io/2048-GameOfThrones"><img src="images/2048got.png" class="img img-rounded img-responsive"></img></a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="row divider">    
-                                   <div class="col-sm-12"><hr></div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-sm-8">
-                                        <h3>2048 - Game Of Thrones Edition</h3>
-                                        <h4><a class="label label-default" href="http://abuddiga.github.io/2048-GameOfThrones">abuddiga.github.io/2048-GameOfThrones</a></h4>
+                                
+                                
+                                <div class="contact-section">
+                              
+                                    <div class="col-sm-12" id="contact">
+                                        <div class="page-header text-muted divider">Contact</div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-7">
-                                        
-                                        <p>Game Of Thrones version of 2048!</p>
-                                        <h5 class="underline">Primary Technologies</h5>
-                                        <ul>
-                                            <li>Javascript</li>
-                                            <li>CSS</li>
-                                        </ul>
-                                        <h5 class="underline">Other Tools</h5>
-                                        <p>Github</p>
-                                    </div>
-                                    <div class="col-sm-5">
-                                        <div class="project-image">
-                                            <a href="http://git-fit.herokuapp.com"><img src="images/gitfit_poster2.png" class="img img-rounded img-responsive"></img></a>
+
+                                  
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <p>I'm always looking for opportunities to work on cool ideas and further develop my skills. Shoot me an email at <a class="underline" href="mailto:abuddiga@alumni.stanford.edu">abuddiga@alumni.stanford.edu</a> and let's chat! You can also find me on...</p>
+                                            <a href="https://github.com/abuddiga">Github</a> <small class="text-muted">|</small> <a href="https://www.linkedin.com/in/akshaybuddiga">LinkedIn</a><small class="text-muted">|</small> <a href="https://twitter.com/akshaybuddiga">Twitter</a>
                                         </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">    
-                                    <div class="col-sm-10">
-                                        <h3>This is Some Awesome Featured Content</h3>
-                                        <h4><span class="label label-default">techvisually.com</span></h4><h4>
-                                        <small class="text-muted">1 hour ago • <a href="#" class="text-muted">Read More</a></small>
-                                        </h4>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <a href="#" class="pull-right"><img src="images/GGBridge.jpg" class="img-circle"></a>
-                                    </div> 
-                                </div>
-                                
-                                <div class="col-sm-12" id="blog">  
-                                    <div class="page-header text-muted divider">Blog</div>
-                                </div>
-                                
-                                
-                                <!--/stories-->
-                                <div class="row">    
-                                    <div class="col-sm-10">
-                                        <h3>Dramatically Raise the Value of Any Piece of Content</h3>
-                                        <h4><span class="label label-default">searchenginewatch.com</span></h4><h4>
-                                        <small class="text-muted">1 hour ago • <a href="#" class="text-muted">Read More</a></small>
-                                        </h4>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <a href="#" class="pull-right"><img src="https://si0.twimg.com/profile_images/2184974868/Fh1LUkrI_bigger" class="img-circle"></a>
-                                    </div> 
-                                </div>
-                                
-                                <div class="row divider">    
-                                   <div class="col-sm-12"><hr></div>
-                                </div>
-                                
-                                <div class="row">    
-                                    <div class="col-sm-10">
-                                        <h3>14 Useful Sites for Designers</h3>
-                                        <h4><span class="label label-default">devgarage.com</span></h4><h4>
-                                        <small class="text-muted">2 days ago • <a href="#" class="text-muted">Read More</a></small>
-                                        </h4>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <a href="#" class="pull-right"><img src="/assets/example/bg_suburb.jpg" class="img-circle"></a>
-                                    </div>
-                                </div>
-                                
-                                <div class="row divider">    
-                                    <div class="col-sm-12"><hr></div>
-                                </div>
-                                
-                                <div class="row">    
-                                    <div class="col-sm-10">
-                                        <h3>Bootstrap Builders Get Their Own Playground</h3>
-                                        <h4><span class="label label-default">bootply.com</span></h4><h4>
-                                        <small class="text-muted">3 days ago • <a href="#" class="text-muted">Read More</a></small>
-                                        </h4>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <a href="#" class="pull-right"><img src="https://si0.twimg.com/profile_images/3663020003/d09fae59ab68605a7973043e0267b905.jpeg" class="img-circle"></a>
-                                    </div>
-                                </div>
-                                
-                                <div class="row divider">    
-                                    <div class="col-sm-12"><hr></div>
-                                </div>
-                                
-                                <div class="row">    
-                                    <div class="col-sm-10">
-                                        <h3>How to: Another Fantastical Article</h3>
-                                        <h4><span class="label label-default">bootply.com</span></h4><h4>
-                                        <small class="text-muted">4 days ago • <a href="#" class="text-muted">Read More</a></small>
-                                        </h4>
-                                    </div>
-                                    <div class="col-sm-2">
-                                        <a href="#" class="pull-right"><img src="//placehold.it/100" class="img-circle"></a>
-                                    </div>
-                                </div>
-                                
-                                <div class="row divider">    
-                                    <div class="col-sm-12"><hr></div>
-                                </div>
-                                
-                                <div class="row">    
-                                    <div class="col-sm-9">
-                                        <h3>Another Fantastical Article of Interest</h3>
-                                        <h4><span class="label label-default">bootply.com</span></h4><h4>
-                                        <small class="text-muted">4 days ago • <a href="#" class="text-muted">Read More</a></small>
-                                        </h4>
-                                    </div>
-                                    <div class="col-sm-3">
-                                        <a href="#" class="pull-right"><img src="//placehold.it/100" class="img-circle"></a>
-                                    </div>
-                                </div>
-                                
-                              
-                                <div class="col-sm-12">
-                                    <div class="page-header text-muted divider">Connect with Us</div>
-                                </div>
-                              
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <a href="#">Twitter</a> <small class="text-muted">|</small> <a href="#">Facebook</a> <small class="text-muted">|</small> <a href="#">Google+</a>
                                     </div>
                                 </div>
                                 
@@ -224,7 +159,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <p>
-                                        <a href="#" class="pull-right">©Copyright 2013</a>
+                                        <a href="#" class="pull-right">©Copyright 2014 Akshay Buddiga</a>
                                         </p>
                                     </div>
                                 </div>
