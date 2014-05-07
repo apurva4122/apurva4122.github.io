@@ -75,7 +75,8 @@ a {
 
 #sidebar {
     background-image: url('../images/mountain-trimmed.jpg');
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
+    background-size:cover;
     font-family: MuseoSlab-500, 'Bitter', Georgia, serif;
 }
 
@@ -187,17 +188,12 @@ small.text-muted {
   }
 }*/
 
-@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-  #sidebar,#sidebar a.logo {
+/*@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+  #sidebar {
     text-align:center;
     margin:0 auto;
     margin-top:30px;
     font-size:26px;
+    max-height:350px;
   }
-  #sidebar a.logo {
-    font-size:50px;
-    height:75px;
-    width:75px;
-    margin-bottom:30px;
-  }
-}
+}*/
