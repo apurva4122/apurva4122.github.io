@@ -145,15 +145,6 @@ h2:hover a {
     text-decoration: none;
 }
 
-/* center and adjust the sidebar contents on smaller devices */
-@media (max-width: 768px) {
-  #sidebar {
-    text-align:center;
-    margin:0 auto;
-/*    margin-top:30px;*/
-    max-height:350px;
-  }
-}
 
 /* bootstrap overrides */
 
@@ -183,4 +174,15 @@ h1,h2,h3 {
 
 small.text-muted {
   font-family:courier,courier-new,monospace;
+}
+
+
+/* center and adjust the sidebar contents on smaller devices */
+@media (max-width: 768px) {
+  #sidebar {
+    text-align:center;
+    margin:0 auto;
+/*    margin-top:30px;*/
+    max-height:350px;
+  }
 }
