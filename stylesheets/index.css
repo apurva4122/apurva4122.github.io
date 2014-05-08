@@ -180,11 +180,10 @@ small.text-muted {
 /* center and adjust the sidebar contents on smaller devices */
 @media only screen and (max-width: 768px), only screen and (max-device-width: 768px) {
   #sidebar {
-    display:none;
-/*    text-align:center;
+    text-align:center;
     margin:0 auto;
-    margin-top:30px;
-    max-height:250px;*/
+/*    margin-top:30px;*/
+    max-height:250px;
   }
 
 }
