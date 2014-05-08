@@ -185,6 +185,10 @@ small.text-muted {
 /*    margin-top:30px;*/
     max-height:250px;
   }
+
+  #main {
+    margin:0 auto;
+  }
 }
 
 /*@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
