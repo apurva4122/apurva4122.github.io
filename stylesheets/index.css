@@ -183,9 +183,6 @@ small.text-muted {
     margin:0 auto;
     max-height:275px;
   }
-  .page-header {
-    margin-top: 20px;
-  }
 }
 
 /*@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
