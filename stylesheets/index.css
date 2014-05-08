@@ -156,13 +156,12 @@ h1,h2,h3 {
   background-color:transparent;
 }
 .label-default {
-  background-color:#dddddd;
+  font-size: 12px;
 }
 .page-header {
   margin-top: 55px;
   padding-top: 9px;
   border-top:1px solid #eeeeee;
-  /*font-weight:700;*/
   font-size: 24px;
   text-transform:uppercase;
   letter-spacing:2px;
