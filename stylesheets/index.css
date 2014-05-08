@@ -178,7 +178,7 @@ small.text-muted {
 
 
 /* center and adjust the sidebar contents on smaller devices */
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   #sidebar {
     text-align:center;
     margin:0 auto;
