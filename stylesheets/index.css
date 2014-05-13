@@ -105,6 +105,13 @@ a {
   margin:auto;
 }
 
+.duke-seal-image {
+  max-width: 150px;
+  max-height: 150px;
+  display:block;
+  margin:auto;
+}
+
 .project-image {
   max-width: 350px;
   max-height: 350px;
@@ -148,7 +155,7 @@ h2:hover a {
 
 /* bootstrap overrides */
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
    font-family: MuseoSlab-500, 'Bitter', Georgia, serif;
 }
 
