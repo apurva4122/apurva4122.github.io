@@ -191,13 +191,3 @@ small.text-muted {
     max-height:275px;
   }
 }
-
-/*@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-  #sidebar {
-    text-align:center;
-    margin:0 auto;
-    margin-top:30px;
-    font-size:26px;
-    max-height:350px;
-  }
-}*/
